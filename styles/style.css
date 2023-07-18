@@ -214,4 +214,25 @@ header{
     font-size: 1rem;
     font-weight: 600;
 }
-/* section style  */
+
+/* footer section style  */
+footer{
+    text-align: center;
+    background-color: #0B0223;
+    color: white;
+    padding: 5rem 0;
+}
+.footer-header{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
