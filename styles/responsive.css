@@ -73,11 +73,37 @@
         margin-left: 5%;
         margin-top: 3rem;
     }
+
     /* play games online section style  */
     .play-game-container{
         flex-direction: column-reverse;
         margin-top: 6rem;
     }
-    /* section style  */
+
+    /* game type section style  */
+    .game-type-container{
+        /* padding: 0; */
+        display: grid;
+        gap: 0px;
+        cursor: pointer;
+        grid-template-columns: repeat(3, 1fr);
+        width: 95%;
+        /* margin: auto;
+        margin-top: 5rem ;
+        margin-bottom: 5rem ; */
+        margin: 5rem auto;
+    }
+    .game-type{
+        margin: auto;
+        margin-top: 10px;
+        width: max-content;
+    }
+    .game-type img{
+        height: 40px;
+        width: 40px;
+    }
+    .game-type p{
+        font-size: 12px;
+    }
     /* section style  */
 }

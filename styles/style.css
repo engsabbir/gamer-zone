@@ -173,6 +173,45 @@ header{
 }
 .play-section-img{
     margin-left: 2.5rem;
+    position: relative;
 }
-/* section style  */
+.play-game-img{
+    position: absolute;
+    height: 6rem;
+    width: 4.5rem;
+    /* left: -7%;
+    bottom: -5%; */
+    right: -7%;
+    bottom: -5%;
+}
+
+/* game type section style  */
+.game-type-container{
+    margin-top: 7rem;
+    /* padding: 6rem 0; */
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.game-type{
+    display: flex;
+    flex-basis: 200px;
+    gap: 0.25rem;
+    align-items: center;
+    width: max-content;
+    padding: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.game-type:hover{
+    border: 1px solid #ff0088;
+    color: #ff0088;
+}
+.game-type p{
+    font-size: 1rem;
+    font-weight: 600;
+}
 /* section style  */
