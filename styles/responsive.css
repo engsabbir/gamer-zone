@@ -1,4 +1,8 @@
 @media screen and (max-width: 576px) {
+    header{
+        padding: 0;
+    }
+    /* navigation part style  */
     .navigation-bar{
         flex-direction: column;
         text-align: center;
@@ -7,5 +11,23 @@
     }
     .nav-link{
         flex-direction: column;
+    }
+
+    /* .banner section style  */
+    .banner{
+        flex-direction: column-reverse;
+        gap: 2rem;
+        width: 95%;
+        margin: auto;
+        margin-top: 13rem;
+    }
+    .banner-info{
+        width: 95%;
+    }
+    /* .banner-highlighted{
+        margin-bottom: 1rem;
+    } */
+    .banner-img{
+        width: 90%;
     }
 }

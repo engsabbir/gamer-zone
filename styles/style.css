@@ -5,6 +5,20 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+.section-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.text-primary{
+    color: #534C64;
+}
+.btn-primary{
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.2rem;
+    border: none;
+    font-size: 1.2rem;
+}
 
 /* nav bar style  */
 header{
@@ -44,7 +58,7 @@ header{
     display: flex;
     gap: 0.5rem;
     padding: 0.5rem;
-    background-color: #afafaf;
+    background-color: #cfcfcf;
     border-radius: 5px;
     align-items: center;
 }
@@ -52,9 +66,50 @@ header{
     margin: 0 5px;
 }
 
+/*banner section style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    margin: 2rem 0px;
+}
+.banner-highlighted{
+    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 4.5rem;
+}
+.banner-info{
+    display: grid;
+    gap: 10px;
+    width: 45%;
+    /* border: 1px solid slateblue; */
+}
+.banner-info i{
+    margin-right: 0.5rem;
+}
+.banner-btn{
+    margin-top: 1rem;
+}
+.sign-in-btn{
+    background-color: #F23F9D;
+}
+.go-rogue-btn{
+    background-color: #4EC5F7;
+    margin-left: 10px;
+}
+
+.banner-img{
+    width: 45%;
+    /* border: 1px solid sandybrown; */
+}
+.banner-img img{
+    width: 100%;
+}
 
 
-/* section style  */
+
 /* section style  */
 /* section style  */
 /* section style  */
