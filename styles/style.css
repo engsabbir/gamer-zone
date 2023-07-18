@@ -8,8 +8,6 @@
 .section-width-primary{
     width: 1120px;
     margin: auto;
-    text-align: center;
-    
 }
 .section-title{
     font-size: 2.5rem;
@@ -19,7 +17,6 @@
     background-image: linear-gradient(to bottom,#ff00957c,#50183f86);
     color: transparent;
     -webkit-background-clip: text;
-    /* font-size: 4.5rem; */
 
 }
 .text-primary{
@@ -120,6 +117,7 @@ header{
 /*Online Games section style  */
 .online-game{
     margin-top: 2rem;
+    text-align: center;
 }
 .online-game > p{
     margin-top: 1rem;
@@ -136,12 +134,45 @@ header{
 .online-game-card img{
     width: 100%;
 }
-.online-game-card p{
+.online-game-card > p{
     margin: 10px 0;
 }
 
-/* section style  */
-
-/* section style  */
+/* play-instantly section style  */
+.play-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 5rem; */
+    margin: 5rem;
+}
+.play-section-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.play-section-text p{
+    margin-top: 1.5rem;
+}
+.play-section-img{
+    position: relative;
+}
+.section-main-img{
+    width: 100%;
+}
+.section-secondary-image{
+    height: 6rem;
+    width: 4.5rem;
+    position: absolute;
+    left: -7%;
+    bottom: -5%;
+}
+/* play-game-container section style  */
+.play-game-container{
+    margin-top: 5rem;
+}
+.play-section-img{
+    margin-left: 2.5rem;
+}
 /* section style  */
 /* section style  */

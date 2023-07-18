@@ -50,8 +50,34 @@
         margin: auto;
     }
     
-    /* section style  */
-    /* section style  */
+    /* play-instantly section style  */
+    .play-section-container{
+        width: 95%;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 2.5rem;
+    }
+    .play-instant-text {
+        width: 90%;
+        margin: auto;
+    }
+    .play-section-text h2{
+        font-size: 2rem;
+    }
+    /* .section-main-img{
+        width: 70%;
+        margin-left: 20%;
+    } */
+    .play-section-img{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 3rem;
+    }
+    /* play games online section style  */
+    .play-game-container{
+        flex-direction: column-reverse;
+        margin-top: 6rem;
+    }
     /* section style  */
     /* section style  */
 }
