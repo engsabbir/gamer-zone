@@ -5,9 +5,22 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+.section-width-primary{
+    width: 1120px;
+    margin: auto;
+    text-align: center;
+    
+}
 .section-title{
     font-size: 2.5rem;
     font-weight: 700;
+}
+.text-transparent{
+    background-image: linear-gradient(to bottom,#ff00957c,#50183f86);
+    color: transparent;
+    -webkit-background-clip: text;
+    /* font-size: 4.5rem; */
+
 }
 .text-primary{
     color: #534C64;
@@ -74,17 +87,14 @@ header{
     gap: 10%;
     margin: 2rem 0px;
 }
-.banner-highlighted{
-    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-size: 4.5rem;
-}
 .banner-info{
     display: grid;
     gap: 10px;
     width: 45%;
     /* border: 1px solid slateblue; */
+}
+.banner-info h1{
+    font-size: 4.5rem;
 }
 .banner-info i{
     margin-right: 0.5rem;
@@ -102,16 +112,36 @@ header{
 
 .banner-img{
     width: 45%;
-    /* border: 1px solid sandybrown; */
 }
 .banner-img img{
     width: 100%;
 }
 
-
+/*Online Games section style  */
+.online-game{
+    margin-top: 2rem;
+}
+.online-game > p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.online-game-card-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.online-game-card{
+    text-align: start;
+}
+.online-game-card img{
+    width: 100%;
+}
+.online-game-card p{
+    margin: 10px 0;
+}
 
 /* section style  */
-/* section style  */
+
 /* section style  */
 /* section style  */
 /* section style  */
