@@ -117,6 +117,7 @@ header{
 .banner-img img{
     width: 100%;
 }
+
 /*gamer section style  */
 .gamer-container{
     display: flex;
@@ -128,8 +129,8 @@ header{
     width: 100%;
 }
 .gamer-text{
-    border: 1px solid salmon;
     width: 50%;
+    padding-right: 1rem;
     text-align: end;
 }
 .gamer-text p{
@@ -218,6 +219,7 @@ header{
     left: -7%;
     bottom: -5%;
 }
+
 /* play-game-container section style  */
 .play-section-img{
     position: relative;
@@ -297,3 +299,4 @@ footer a:hover{
 .company-policy a{
     margin-right: 1rem;
 }
+/* -----******----- */
