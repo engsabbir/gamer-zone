@@ -117,6 +117,32 @@ header{
 .banner-img img{
     width: 100%;
 }
+/*gamer section style  */
+.gamer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.gamer-img img{
+    width: 100%;
+}
+.gamer-text{
+    border: 1px solid salmon;
+    width: 50%;
+    text-align: end;
+}
+.gamer-text p{
+    margin: 1rem 0;
+}
+.know-more-btn{
+    background-color: #ff0088;
+}
+.gamer-text q{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 /*Online Games section style  */
 .online-game{
@@ -155,7 +181,7 @@ header{
     left: 30%;
     text-align: center;
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 600;
     display: none;
 }
@@ -241,7 +267,7 @@ footer{
     text-align: center;
     background-color: #0B0223;
     color: white;
-    padding: 5rem 0;
+    padding: 2rem 0;
     margin:auto;
 }
 .footer-header{
