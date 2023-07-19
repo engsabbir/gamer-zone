@@ -134,6 +134,27 @@ header{
 .online-game-card img{
     width: 100%;
 }
+.online-game-img{
+    position: relative;
+}
+.online-game-img:hover .card-bg-img{
+    cursor: pointer;
+    background-blend-mode: overlay;
+}
+
+.online-game-img:hover .card-secondary-img{
+    display: block;
+}
+.card-secondary-img{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: none;
+}
 .online-game-card > p{
     margin: 10px 0;
 }
@@ -202,8 +223,9 @@ header{
     border-radius: 50px;
 }
 .game-type:hover{
-    border: 1px solid #ff0088;
     color: #ff0088;
+    border: 1px solid #ff0088;
+    background-color: rgb(247, 247, 247);
 }
 .game-type p{
     font-size: 1rem;
