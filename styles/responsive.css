@@ -1,5 +1,9 @@
 /* responsive for small device */
 @media screen and (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+    
     header{
         padding: 0;
     }
@@ -142,6 +146,10 @@
 
 /* responsive for medium device */
 @media screen and (min-width: 577px) and (max-width: 960px) {
+    body{
+        overflow-x: hidden;
+    }
+
     /* header section style  */
     header{
         width: 100%;
