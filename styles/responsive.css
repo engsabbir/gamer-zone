@@ -1,3 +1,4 @@
+/* responsive for small device */
 @media screen and (max-width: 576px) {
     header{
         padding: 0;
@@ -84,7 +85,6 @@
 
     /* game type section style  */
     .game-type-container{
-        /* padding: 0; */
         display: grid;
         gap: 0px;
         cursor: pointer;
@@ -119,4 +119,73 @@
         row-gap: 1rem;
         margin: 2rem;
     }
+}
+
+/* responsive for medium device */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    /* header section style  */
+    header{
+        width: 100%;
+        margin: auto;
+        padding: 2rem 1rem;
+    }
+    .nav-logo{
+        gap: 0.5rem;
+    }
+    .nav-logo img{
+        width: 50%;
+    }
+    .nav-logo > h2{
+        font-size: 1.5rem;
+    }
+    .nav-link{
+        gap: 1rem;
+    }
+    .nav-link{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    /* .online-game style  */
+    .online-game{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .online-game-card-container{
+        margin: 0 auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* .play-section-container style  */
+    .play-section-container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 4rem;
+    }
+    .play-game-container{
+        flex-direction: column-reverse;
+    }
+    .play-section-img {
+        width: 70%;
+        margin-top: 3rem;
+    }
+    .section-main-img{
+        width: 100%;
+    }
+
+    /* .game-type-container style */
+    .game-type-container{
+        width: 90%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    footer{
+        margin: auto;
+        width: 100%;
+    }
+
+    
 }
