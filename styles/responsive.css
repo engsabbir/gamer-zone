@@ -6,6 +6,7 @@
     .navigation-bar{
         flex-direction: column;
         text-align: center;
+        padding-top: 2rem;
         gap: 2rem
         ;
     }
@@ -64,15 +65,16 @@
     .play-section-text h2{
         font-size: 2rem;
     }
+    
+    .play-section-img{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+    }
     /* .section-main-img{
         width: 70%;
         margin-left: 20%;
     } */
-    .play-section-img{
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 3rem;
-    }
 
     /* play games online section style  */
     .play-game-container{
@@ -105,5 +107,19 @@
     .game-type p{
         font-size: 12px;
     }
-    /* section style  */
+
+    /* footer section style  */
+    .footer-important-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+        width: 60%;
+        margin: 2rem auto;
+    }
+    .company-policy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
+        margin: 2rem;
+    }
 }
