@@ -170,7 +170,10 @@ header{
 }
 .online-game-img:hover .card-bg-img{
     cursor: pointer;
+    background-image: linear-gradient(rgb(211, 210, 208), rgb(34, 36, 34));
     background-blend-mode: overlay;
+    border-radius: 14px;
+    opacity: 0.5;
 }
 
 .online-game-img:hover .card-secondary-img{
